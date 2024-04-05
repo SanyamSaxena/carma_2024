@@ -1,0 +1,14 @@
+nohup python result_analysis.py -t selfcheck -m prompt -c configs/config_financial.json -i 3_events/selfchecked_events/financial/test -g 3_events/human_ranked_events/financial/test -l human > 3_events/results_human/financial_selfcheck_prompt.txt &
+nohup python result_analysis.py -t selfcheck -m prompt -c configs/config_financial.json -i 5_events/selfchecked_events/financial/test -g 5_events/human_ranked_events/financial/test -l human > 5_events/results_human/financial_selfcheck_prompt.txt &
+nohup python result_analysis.py -t selfcheck -m prompt -c configs/config_worldbank.json -i 3_events/selfchecked_events/worldbank/test -g 3_events/human_ranked_events/worldbank/test -l human > 3_events/results_human/worldbank_selfcheck_prompt.txt &
+nohup python result_analysis.py -t selfcheck -m prompt -c configs/config_worldbank.json -i 5_events/selfchecked_events/worldbank/test -g 5_events/human_ranked_events/worldbank/test -l human > 5_events/results_human/worldbank_selfcheck_prompt.txt &
+
+nohup python result_analysis.py -t selfcheck -m nli -c configs/config_financial.json -i 3_events/selfchecked_events/financial/test -g 3_events/human_ranked_events/financial/test -l human > 3_events/results_human/financial_selfcheck_nli.txt &
+nohup python result_analysis.py -t selfcheck -m nli -c configs/config_financial.json -i 5_events/selfchecked_events/financial/test -g 5_events/human_ranked_events/financial/test -l human > 5_events/results_human/financial_selfcheck_nli.txt &
+nohup python result_analysis.py -t selfcheck -m nli -c configs/config_worldbank.json -i 3_events/selfchecked_events/worldbank/test -g 3_events/human_ranked_events/worldbank/test -l human > 3_events/results_human/worldbank_selfcheck_nli.txt &
+nohup python result_analysis.py -t selfcheck -m nli -c configs/config_worldbank.json -i 5_events/selfchecked_events/worldbank/test -g 5_events/human_ranked_events/worldbank/test -l human > 5_events/results_human/worldbank_selfcheck_nli.txt &
+
+nohup python result_analysis.py -t selfcheck -m ngram -c configs/config_financial.json -i 3_events/selfchecked_events/financial/test -g 3_events/human_ranked_events/financial/test -l human > 3_events/results_human/financial_selfcheck_ngram.txt &
+nohup python result_analysis.py -t selfcheck -m ngram -c configs/config_financial.json -i 5_events/selfchecked_events/financial/test -g 5_events/human_ranked_events/financial/test -l human > 5_events/results_human/financial_selfcheck_ngram.txt &
+nohup python result_analysis.py -t selfcheck -m ngram -c configs/config_worldbank.json -i 3_events/selfchecked_events/worldbank/test -g 3_events/human_ranked_events/worldbank/test -l human > 3_events/results_human/worldbank_selfcheck_ngram.txt &
+nohup python result_analysis.py -t selfcheck -m ngram -c configs/config_worldbank.json -i 5_events/selfchecked_events/worldbank/test -g 5_events/human_ranked_events/worldbank/test -l human > 5_events/results_human/worldbank_selfcheck_ngram.txt &

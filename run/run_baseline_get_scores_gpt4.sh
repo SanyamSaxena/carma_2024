@@ -1,0 +1,4 @@
+nohup python baseline.py -s test -c configs/config_financial_gpt4.json -g 0  -t get_scores -m "prompt" -i 3_events/extracted_samples/financial -o 3_events/selfchecked_events/financial_gpt4 > 3_events/logs/financial_get_scores_prompt_gpt4.txt &
+nohup python baseline.py -s test -c configs/config_financial_gpt4.json -g 0  -t get_scores -m "prompt" -i 5_events/extracted_samples/financial -o 5_events/selfchecked_events/financial_gpt4 > 5_events/logs/financial_get_scores_prompt_gpt4.txt &
+nohup python baseline.py -s test -c configs/config_worldbank_gpt4.json -g 0  -t get_scores -m "prompt" -i 3_events/extracted_samples/worldbank -o 3_events/selfchecked_events/worldbank_gpt4 > 3_events/logs/worldbank_get_scores_prompt_gpt4.txt &
+nohup python baseline.py -s test -c configs/config_worldbank_gpt4.json -g 0  -t get_scores -m "prompt" -i 5_events/extracted_samples/worldbank -o 5_events/selfchecked_events/worldbank_gpt4 > 5_events/logs/worldbank_get_scores_prompt_gpt4.txt &

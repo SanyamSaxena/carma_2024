@@ -1,0 +1,9 @@
+nohup python result_analysis.py -t trained -c configs/config_financial.json -i 3_events/scoring_model/financial/test -g 3_events/gpt4_supervised_events/financial/test -l gpt4 > 3_events/results/financial_model.txt &
+nohup python result_analysis.py -t trained -c configs/config_financial.json -i 5_events/scoring_model/financial/test -g 5_events/gpt4_supervised_events/financial/test -l gpt4 > 5_events/results/financial_model.txt &
+nohup python result_analysis.py -t trained -c configs/config_worldbank.json -i 3_events/scoring_model/worldbank/test -g 3_events/gpt4_supervised_events/worldbank/test -l gpt4 > 3_events/results/worldbank_model.txt &
+nohup python result_analysis.py -t trained -c configs/config_worldbank.json -i 5_events/scoring_model/worldbank/test -g 5_events/gpt4_supervised_events/worldbank/test -l gpt4 > 5_events/results/worldbank_model.txt &
+
+nohup python result_analysis.py -t trained -c configs/config_financial.json -i 3_events/scoring_model_nn/financial/test -g 3_events/gpt4_supervised_events/financial/test -l gpt4 > 3_events/results/financial_model_nn.txt &
+nohup python result_analysis.py -t trained -c configs/config_financial.json -i 5_events/scoring_model_nn/financial/test -g 5_events/gpt4_supervised_events/financial/test -l gpt4 > 5_events/results/financial_model_nn.txt &
+nohup python result_analysis.py -t trained -c configs/config_worldbank.json -i 3_events/scoring_model_nn/worldbank/test -g 3_events/gpt4_supervised_events/worldbank/test -l gpt4 > 3_events/results/worldbank_model_nn.txt &
+nohup python result_analysis.py -t trained -c configs/config_worldbank.json -i 5_events/scoring_model_nn/worldbank/test -g 5_events/gpt4_supervised_events/worldbank/test -l gpt4 > 5_events/results/worldbank_model_nn.txt &
